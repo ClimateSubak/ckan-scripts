@@ -1,0 +1,40 @@
+{
+    "organisations": [
+        {
+            "name": "subak",
+            "title": "Climate Subak",
+            "description": "Share the data, save the planet",
+            "image_url": "https://avatars.githubusercontent.com/u/84879997?s=400&u=0327c044a785b8603d22a2a0acc2a4844c622258&v=4"
+        },
+        {
+            "name": "openclimatefix",
+            "title": "Open Climate Fix",
+            "description": "Using computers to fix climate change",
+            "image_url": "https://avatars.githubusercontent.com/u/48357542?s=200&v=4"
+        },
+        {
+            "name": "ember",
+            "title": "Ember",
+            "description": "Coal to clean energy policy",
+            "image_url": "https://ember-climate.org/wp-content/uploads/2021/03/Ember_Logo_Full_Colour_RGB_500px@300ppi.png"
+        },
+        {
+            "name": "newautomotive",
+            "title": "New Automotive",
+            "description": "Accelerating the switch to electric",
+            "image_url": "https://avatars.githubusercontent.com/u/69809815?s=400&u=3dc566ee1b6ab2e4e675b790359f1e5491b62eb3&v=4"
+        },
+        {
+            "name": "climatepolicyradar",
+            "title": "Climate Policy Radar",
+            "description": "Building the evidence base for evidence-based policymaking",
+            "image_url": "https://img1.wsimg.com/isteam/ip/577cf4c9-87f7-48e5-be57-b20451dce74d/logoblue-small-0001.png"
+        },
+        {
+            "name": "transitionzero",
+            "title": "TransitionZero",
+            "description": "Providing financial analytics to make zero carbon a reality",
+            "image_url": "https://images.squarespace-cdn.com/content/v1/605b4bcc5526904ff5589918/86910ab7-bafe-440d-94d4-605afc867fe1/transitionzero-social-icon+compressed.png"
+        }
+    ]
+}

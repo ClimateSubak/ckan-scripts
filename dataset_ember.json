@@ -1,0 +1,17 @@
+{
+    "name": "global_electricity",
+    "title": "Global Electricity Data",
+    "description": "Global electricity generation data",
+    "private": null,
+    "author": "Ember",
+    "author_email": "info@ember-climate.org",
+    "maintainer": "Pete Tunbridge",
+    "maintainer_email": "pete@ember-climate.org",
+    "license_id": "cc-by",
+    "notes": "",
+    "url": "https://ember-climate.org/data/global-electricity/",
+    "version": "202103",
+    "state": "active",
+    "type": null,
+    "owner_org": "ember"
+}
