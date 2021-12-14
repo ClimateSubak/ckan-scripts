@@ -1,6 +1,12 @@
 {
     "organisations": [
         {
+            "name": "dc_admin",
+            "title": "Data Catalogue Admin",
+            "description": "Default user for Datasets",
+            "image_url": "https://raw.githubusercontent.com/ClimateSubak/ckanext-subakdc/bb5f4a707b6ebec8db4d6d0449babd40407106c9/ckanext/subakdc/public/images/tabler-icon-book.png"
+        },
+        {
             "name": "subak",
             "title": "Climate Subak",
             "description": "Share the data, save the planet",

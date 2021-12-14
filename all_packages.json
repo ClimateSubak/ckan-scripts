@@ -1,0 +1,845 @@
+[
+    {
+        "author": "Ember",
+        "author_email": "dave@ember-climate.org",
+        "change_log": "",
+        "creator_user_id": "a1e173d7-9ecd-4016-9100-801917be293f",
+        "data_applications": "Our annual Review report can be found here: https://ember-climate.org/project/global-electricity-review-2021/",
+        "data_fields": "Year, Area, Variable, Source, Generation (TWh), Share of production (%), Capacity Source, Capacity (GW)",
+        "data_processing": "## Methodology\r\n\r\n### Historical data\r\nData from the United States Energy Information Administration’s (EIA) international data browser forms the backbone of this report. With the exception of China, India, EU-27 and the United States, all generation data from 2000-2019 is taken from this source. For some generation types in non-OECD countries, 2019 data had not yet been published by the EIA. Where available, we used national data to estimate these values, otherwise, the average change for that generation type seen over 2015-2018 was added onto the 2018 generation value.\r\n\r\n### Thermal disaggregation\r\nEIA international data does not disaggregate generation from fossil fuels. This was performed by Ember using two methods. If possible, the split between fossil fuels was estimated using the ratios of fossil generation types in BP’s statistical review of world energy. Fossil generation was disaggregated for any remaining countries by using the capacity split by fossil fuel type, taken from the WRI’s global power plant database.\r\n\r\n### 2020 data\r\nData for 2020 is estimated using national sources. The year-on-year changes in generation for each fuel type from these sources are added onto the historical 2019 data to obtain a value for 2020. Data sources for Argentina, Canada, Ecuador, Kazakhstan and Russia provide no disaggregation of thermal generation - for these countries, estimates of the split between different generation types were made using the IEA’s monthly electricity generation statistics and BP’s statistical review of world energy.\r\n\r\n### World estimate\r\nWorld data for 2000-2019 is the sum of all country data. World data for 2020 is estimated by summing generation for all countries where we have 2019 and 2020 data. Together this comprises 90% of global generation. The percentage changes in each fuel type from 2019 to 2020 are then applied to the world generation data for 2019, to create an estimate of global generation in 2020.\r\n",
+        "data_quality": "",
+        "data_sources": "EIA International Data Browser, BP Statistical Review of World Energy",
+        "notes": "A global dataset for electricity generation & demand across 217 countries from 2000 to 2020. Data for 2020 covers 90% of the world’s electricity production.\r\n\r\nEach year, we aim to produce the earliest authoritative report to give insights into last year’s global electricity generation changes – offering an unbiased picture of the transition to fossil-free electricity.\r\n\r\n### Disclaimer\r\nThe data in this file is provided on an ‘as is’ basis, and was assembled using the best available data at the time of publication. We take no responsibility for errors. Please do contact us if you spot any errors or have suggestions at info@ember-climate.org\r\n\r\n### Definitions\r\nGeneration data is mapped into nine generation types. More information on mapping for different sources and countries can be accessed via Ember's website. For the purpose of analysis these generation types are aggregated into different groupings [as shown in this image](https://ember-climate.org/wp-content/uploads/2021/03/variable_hierarchy_dark-01.png).\r\n\r\n1 Solar includes both solar thermal and solar photovoltaic generation, and where possible distributed solar generation is included.\r\n2 Where possible, hydro generation excludes any contribution from pumped hydro generation.\r\n3 Bioenergy generation includes generation from combustible renewables. For certain historical data sources all waste generation (renewable and non-renewable) is not disaggregated from other combustible renewables generation - this has all been mapped to bioenergy.\r\n4 Other renewables generation includes geothermal, tidal and wave generation.\r\n5 Other fossil generation includes generation from oil and petroleum products, as well as manufactured gases. \r\n\r\n\r\n\r\n\r\n\r\n",
+        "isopen": true,
+        "license_id": "cc-by-sa",
+        "license_title": "Creative Commons Attribution Share-Alike",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by-sa",
+        "maintainer": "Dave Jones",
+        "maintainer_email": "pete@ember-climate.org",
+        "metadata_created": "2021-08-13T18:16:54.802748",
+        "metadata_modified": "2021-12-02T09:36:15.206832",
+        "name": "global_electricity",
+        "num_resources": 1,
+        "num_tags": 6,
+        "organization": {
+            "name": "ember",
+            "title": "Ember",
+            "type": "organization",
+            "description": "Coal to clean energy policy",
+            "image_url": "https://ember-climate.org/wp-content/uploads/2021/03/Ember_Logo_Full_Colour_RGB_500px@300ppi.png",
+            "created": "2021-08-13T16:36:22.136882",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "overview": "Global electricity generation and demand ",
+        "owner_org": "ember",
+        "private": false,
+        "state": "active",
+        "title": "Global Electricity Review Dataset",
+        "type": "dataset",
+        "url": "https://ember-climate.org/data/global-electricity/",
+        "version": "2021",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-13T18:22:14.998558",
+                "datastore_active": false,
+                "description": "Country-by-country data on the transition to fossil-free electricity",
+                "format": "XLSX",
+                "hash": "",
+                "last_modified": null,
+                "metadata_modified": "2021-08-13T18:22:14.993843",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "2021-07 Global Electricity Review",
+                "package_id": "260277b7-df9c-456f-84f8-fbee66f68e7e",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ember-climate.org/wp-content/uploads/2021/03/Data-Global-Electricity-Review-2021.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "coal",
+                "name": "coal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "demand",
+                "name": "demand",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "electricity",
+                "name": "electricity",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "generation",
+                "name": "generation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "power",
+                "name": "power",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "renewables",
+                "name": "renewables",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    },
+    {
+        "author": "Ayrton Bourn",
+        "creator_user_id": "0c434405-5d2c-4c0d-b50b-ac13fbcd87ed",
+        "isopen": false,
+        "license_id": "CC-BY-4.0",
+        "license_title": "CC-BY-4.0",
+        "metadata_created": "2021-11-29T15:15:59.152849",
+        "metadata_modified": "2021-11-29T15:15:59.152857",
+        "name": "ids",
+        "notes": "Dataset listing the various IDs used to refer to the same power plants. These IDs can represent same-as relationships as well as sets which relate to different elements of the same plant e.g. a plant may comprise multiple generation units (referred to BMUs in the UK).",
+        "num_resources": 1,
+        "num_tags": 2,
+        "owner_org": "dc_admin",
+        "private": false,
+        "state": "active",
+        "title": "Power Plant IDs",
+        "type": "dataset",
+        "version": "1.0.0",
+        "extras": [
+            {
+                "key": "profile",
+                "value": "tabular-data-package"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-11-29T15:15:59.156277",
+                "datastore_active": false,
+                "format": "CSV",
+                "hash": "",
+                "last_modified": null,
+                "metadata_modified": "2021-11-29T15:15:59.146803",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ids",
+                "package_id": "6b31e53d-b729-4f79-b829-34cdab394486",
+                "position": 0,
+                "profile": "tabular-data-resource",
+                "resource_type": null,
+                "schema": {
+                    "fields": [
+                        {
+                            "name": "dictionary_id",
+                            "required": true,
+                            "type": "integer",
+                            "format": "default",
+                            "description": "The identifier used to refer to power plants in the Subak data cooperative",
+                            "title": "Dictionary ID",
+                            "hierarchy": "root"
+                        },
+                        {
+                            "name": "gppd_idnr",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "GPPD ID",
+                            "description": "The identifier used in the global power plant database",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "esail_id",
+                            "type": "string",
+                            "format": "default",
+                            "description": "The identifier used by the Energy Systems and Artificial Intelligence Lab at UCL",
+                            "title": "ESAIL ID",
+                            "hierarchy": "equivalent"
+                        },
+                        {
+                            "name": "name",
+                            "type": "string",
+                            "format": "default",
+                            "title": "Common Name",
+                            "description": "The name used to refer to the power plant site",
+                            "hierarchy": "equivalent"
+                        },
+                        {
+                            "name": "sett_bmu_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "description": "The Balancing Mechanism Unit identifier used for settlement purposes by Elexon",
+                            "title": "Settlement BMU ID",
+                            "hierarchy": "child"
+                        },
+                        {
+                            "name": "ngc_bmu_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "description": "The Balancing Mechanism Unit identifier used by the National Grid",
+                            "title": "National Grid BMU ID",
+                            "hierarchy": "child"
+                        },
+                        {
+                            "name": "4c_offshore_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "4C-Offshore ID",
+                            "description": "The identifier used by 4C-Offshore",
+                            "hierarchy": "equivalent/child",
+                            "url_format": "https://www.4coffshore.com/windfarms/united-kingdom/{value}.html"
+                        },
+                        {
+                            "name": "windpowernet_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "WindPowerNet ID",
+                            "description": "The identifier used by the WindPower.Net",
+                            "hierarchy": "equivalent/child",
+                            "url_format": "https://www.thewindpower.net/{value}.php"
+                        },
+                        {
+                            "name": "wikidata_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "Wikidata ID",
+                            "description": "The identifier used by Wikidata",
+                            "hierarchy": "equivalent/child",
+                            "url_format": "https://www.wikidata.org/wiki/{value}"
+                        },
+                        {
+                            "name": "wikipedia_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "Wikipedia ID",
+                            "description": "The identifier used by Wikipedia",
+                            "hierarchy": "equivalent/child",
+                            "url_format": "https://en.wikipedia.org/wiki/{value}"
+                        },
+                        {
+                            "name": "power_technology_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "Power-Technology ID",
+                            "description": "The identifier used by Power-Technology",
+                            "hierarchy": "equivalent/child",
+                            "url_format": "https://www.power-technology.com/projects/{value}"
+                        },
+                        {
+                            "name": "eutl_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "integer"
+                            },
+                            "title": "EUTL ID",
+                            "description": "The identifier used in the European (Emissions Trading Scheme) Transaction Logs",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "eic_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "EIC ID",
+                            "description": "The Energy Identification Code or EIC is a 16-character code used in Europe to uniquely identify entities and objects related to the electricity and gas sector. The EIC code is used for: Transmission System Operators, Market Participants etc.",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "cfd_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "CfD ID",
+                            "description": "The identifier used by the Low Carbon Contracts Company to uniquely identify Contracts for Difference projects",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "jrc_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "JRC ID",
+                            "description": "Unique identifier of the hydro-power plant in the JRC data-base",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "iaea_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "integer"
+                            },
+                            "title": "IAEA ID",
+                            "description": "Unique identifier used by the International Atomic Energy Agency",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "old_repd_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "string"
+                            },
+                            "title": "REPD ID (Old)",
+                            "description": "Unique identifier used by BEIS in the Renewable Energy Planning Database - now superseded by a new ID scheme",
+                            "hierarchy": "equivalent/child"
+                        },
+                        {
+                            "name": "new_repd_id",
+                            "type": "array",
+                            "format": ", ",
+                            "array_item": {
+                                "type": "integer"
+                            },
+                            "title": "REPD ID (New)",
+                            "description": "Unique identifier used by BEIS in the Renewable Energy Planning Database",
+                            "hierarchy": "equivalent/child"
+                        }
+                    ],
+                    "primaryKey": "dictionary_id",
+                    "foreignKeys": [
+                        {
+                            "fields": "ngc_bmu_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/bmu-fuel-types/datapackage.json",
+                                "resource": "bmu-fuel-types",
+                                "fields": "NGC_BMU_ID",
+                                "attributes": [
+                                    "FUEL TYPE"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "dictionary_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/plant-locations/datapackage.json",
+                                "resource": "plant-locations",
+                                "fields": "dictionary_id",
+                                "attributes": [
+                                    "longitude",
+                                    "latitude"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "dictionary_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/wind-farms/datapackage.json",
+                                "resource": "wind-farms",
+                                "fields": "dictionary_id",
+                                "attributes": [
+                                    "plant_type",
+                                    "hub_height"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "gppd_idnr",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/global-power-plant-database/datapackage.json",
+                                "resource": "global-power-plant-database",
+                                "fields": "gppd_idnr",
+                                "attributes": [
+                                    "capacity_mw",
+                                    "longitude",
+                                    "latitude",
+                                    "primary_fuel",
+                                    "other_fuel1",
+                                    "other_fuel2",
+                                    "other_fuel3",
+                                    "commissioning_year",
+                                    "owner",
+                                    "source",
+                                    "url",
+                                    "geolocation_source",
+                                    "wepp_id",
+                                    "year_of_capacity_data",
+                                    "generation_gwh_2013",
+                                    "generation_gwh_2014",
+                                    "generation_gwh_2015",
+                                    "generation_gwh_2016",
+                                    "generation_gwh_2017",
+                                    "generation_gwh_2018",
+                                    "generation_gwh_2019",
+                                    "generation_data_source",
+                                    "estimated_generation_gwh_2013",
+                                    "estimated_generation_gwh_2014",
+                                    "estimated_generation_gwh_2015",
+                                    "estimated_generation_gwh_2016",
+                                    "estimated_generation_gwh_2017"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "eutl_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/verified-emissions/datapackage.json",
+                                "resource": "verified-emissions",
+                                "fields": "account_id",
+                                "attributes": [
+                                    "tonnes_co2"
+                                ],
+                                "aggregation": "sum",
+                                "alt_indexes": [
+                                    "year"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "ngc_bmu_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/annual-output/datapackage.json",
+                                "resource": "annual-output",
+                                "fields": "ngc_bmu_id",
+                                "attributes": [
+                                    "output_MWh"
+                                ],
+                                "aggregation": "sum",
+                                "alt_indexes": [
+                                    "year"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "ngc_bmu_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/capture-prices/datapackage.json",
+                                "resource": "capture-prices",
+                                "fields": "ngc_bmu_id",
+                                "attributes": [
+                                    "capture_price"
+                                ],
+                                "alt_indexes": [
+                                    "year"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "ngc_bmu_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/load-factors/datapackage.json",
+                                "resource": "load-factors",
+                                "fields": "ngc_bmu_id",
+                                "attributes": [
+                                    "load_factor"
+                                ],
+                                "alt_indexes": [
+                                    "year"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "jrc_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/energy-modelling-toolkit/hydro-power-database/master/data/datapackage.json",
+                                "resource": "jrc-hydro-power-plants-database",
+                                "fields": "id",
+                                "attributes": [
+                                    "installed_capacity_MW",
+                                    "pumping_MW",
+                                    "type",
+                                    "lat",
+                                    "lon",
+                                    "dam_height_m",
+                                    "volume_Mm3",
+                                    "storage_capacity_MWh",
+                                    "avg_annual_generation_GWh",
+                                    "pypsa_id",
+                                    "GEO",
+                                    "WRI"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "iaea_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/cristianst85/GeoNuclearData/master/data/csv/denormalized/datapackage.json",
+                                "resource": "nuclear-power-plants",
+                                "fields": "IAEAId",
+                                "attributes": [
+                                    "Name",
+                                    "Latitude",
+                                    "Longitude",
+                                    "Status",
+                                    "ReactorType",
+                                    "ReactorModel",
+                                    "ConstructionStartAt",
+                                    "OperationalFrom",
+                                    "OperationalTo",
+                                    "Capacity",
+                                    "Source"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "new_repd_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/renewable-energy-planning-database/datapackage.json",
+                                "resource": "renewable-energy-planning-database",
+                                "fields": "Ref ID",
+                                "attributes": [
+                                    "Operator (or Applicant)",
+                                    "Site Name",
+                                    "Technology Type",
+                                    "Storage Type",
+                                    "Storage Co-location REPD Ref ID",
+                                    "Installed Capacity (MWelec)",
+                                    "CHP Enabled",
+                                    "RO Banding (ROC/MWh)",
+                                    "FiT Tariff (p/kWh)",
+                                    "CfD Capacity (MW)",
+                                    "Turbine Capacity (MW)",
+                                    "No. of Turbines",
+                                    "Height of Turbines (m)",
+                                    "Mounting Type for Solar",
+                                    "Development Status",
+                                    "Address",
+                                    "County",
+                                    "Region",
+                                    "Country",
+                                    "Post Code",
+                                    "X-coordinate",
+                                    "Y-coordinate",
+                                    "Planning Authority",
+                                    "Planning Application Reference",
+                                    "Appeal Reference",
+                                    "Secretary of State Reference",
+                                    "Type of Secretary of State Intervention",
+                                    "Judicial Review",
+                                    "Offshore Wind Round",
+                                    "Planning Application Submitted",
+                                    "Planning Application Withdrawn",
+                                    "Planning Permission Refused",
+                                    "Appeal Lodged",
+                                    "Appeal Withdrawn",
+                                    "Appeal Refused",
+                                    "Appeal Granted",
+                                    "Planning Permission Granted",
+                                    "Secretary of State - Intervened",
+                                    "Secretary of State - Refusal",
+                                    "Secretary of State - Granted",
+                                    "Planning Permission Expired",
+                                    "Under Construction",
+                                    "Operational",
+                                    "Heat Network Ref"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "cfd_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/cfd-contract-portfolio-status/datapackage.json",
+                                "resource": "cfd-contract-portfolio-status",
+                                "fields": "CFD_ID",
+                                "attributes": [
+                                    "Name_of_CFD_Unit",
+                                    "Allocation_Round",
+                                    "Technology_Type",
+                                    "Transmission_or_Distribution_connection",
+                                    "Status",
+                                    "Expected_Start_Date",
+                                    "Maximum_Contract_Capacity_MW"
+                                ]
+                            }
+                        },
+                        {
+                            "fields": "cfd_id",
+                            "reference": {
+                                "package": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/cfd-strike-prices/datapackage.json",
+                                "resource": "cfd-strike-prices",
+                                "fields": "cfd_id",
+                                "attributes": [
+                                    "strike_price_GBP_per_MWh"
+                                ],
+                                "alt_indexes": [
+                                    "financial_year"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "size": null,
+                "state": "active",
+                "url": "http://ids.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "ids",
+                "name": "ids",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "power plants",
+                "name": "power plants",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    },
+    {
+        "author": "BEIS",
+        "author_email": "",
+        "creator_user_id": "0c434405-5d2c-4c0d-b50b-ac13fbcd87ed",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "maintainer": "",
+        "maintainer_email": "",
+        "metadata_created": "2021-11-10T12:05:00.077511",
+        "metadata_modified": "2021-11-10T13:07:41.450164",
+        "name": "renewable-energy-planning-database",
+        "notes": "The Renewable Energy Planning Database ('REPD') is managed by Barbour ABI on behalf of the Department of Business, Energy & Industrial Strategy ('BEIS’). The databases track the progress of renewable electricity projects (including those that could also be used for CHP), and electricity storage projects from inception, through planning, construction, operation and decommissioning.\r\n\r\nThe REPD is updated on a quarterly basis and contains information on all Renewable Electricity and CHP projects up to the end of the previous calendar month.",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "name": "data-catalogue-admin",
+            "title": "Data Catalogue Admin",
+            "type": "organization",
+            "description": "Default organisation for datasets added by the Subak Data Catalogue team.",
+            "image_url": "2021-08-13-154656.206224SUBAKDARKsmall.png",
+            "created": "2021-08-13T14:23:24.638820",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "dc_admin",
+        "private": false,
+        "state": "active",
+        "title": "Renewable Energy Planning Database",
+        "type": "dataset",
+        "url": "https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract",
+        "version": "June 2021",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-11-10T12:05:41.548567",
+                "datastore_active": false,
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "last_modified": null,
+                "metadata_modified": "2021-11-10T12:05:41.536002",
+                "mimetype": "application/json",
+                "mimetype_inner": null,
+                "name": "datapackage.json",
+                "package_id": "ad2c6620-8113-4d4b-b3c9-ec7a06c72d50",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/renewable-energy-planning-database/datapackage.json",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-11-10T12:06:29.854224",
+                "datastore_active": false,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "last_modified": null,
+                "metadata_modified": "2021-11-10T12:06:46.224626",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Renewable Energy Planning Database",
+                "package_id": "ad2c6620-8113-4d4b-b3c9-ec7a06c72d50",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://raw.githubusercontent.com/OSUKED/Dictionary-Datasets/main/datasets/renewable-energy-planning-database/renewable-energy-planning-database-q2-june-2021.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "BEIS",
+                "name": "BEIS",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "REPD",
+                "name": "REPD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "renewable",
+                "name": "renewable",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    },
+    {
+        "author": "World Resource Institute",
+        "author_email": "",
+        "creator_user_id": "0c434405-5d2c-4c0d-b50b-ac13fbcd87ed",
+        "isopen": true,
+        "license_id": "cc-by",
+        "license_title": "Creative Commons Attribution",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by",
+        "maintainer": "",
+        "maintainer_email": "",
+        "metadata_created": "2021-11-10T10:19:49.874534",
+        "metadata_modified": "2021-11-10T11:51:29.458067",
+        "name": "global-power-plant-database",
+        "notes": "The Global Power Plant Database is a comprehensive, open-source database of power plants around the world. It centralizes power plant data to make it easier to navigate, compare and draw insights for one’s own analysis. The database covers approximately 35,000 power plants from 167 countries and includes thermal plants (e.g. coal, gas, oil, nuclear, biomass, waste, geothermal) and renewables (e.g. hydro, wind, solar). Each power plant is geolocated and entries contain information on plant capacity, generation, ownership, and fuel type. It will be continuously updated as data becomes available.\r\n\r\nThe methodology for the dataset creation is given in the World Resources Institute publication [A Global Database of Power Plants](https://www.wri.org/research/global-database-power-plants). Data updates may occur without associated updates to this manuscript.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "name": "data-catalogue-admin",
+            "title": "Data Catalogue Admin",
+            "type": "organization",
+            "description": "Default organisation for datasets added by the Subak Data Catalogue team.",
+            "image_url": "2021-08-13-154656.206224SUBAKDARKsmall.png",
+            "created": "2021-08-13T14:23:24.638820",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "dc_admin",
+        "private": false,
+        "state": "active",
+        "title": "Global Power Plant Database",
+        "type": "dataset",
+        "url": "https://datasets.wri.org/dataset/globalpowerplantdatabase",
+        "version": "1.3.0",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-11-10T10:20:23.615169",
+                "datastore_active": false,
+                "description": "Metadata for the GPPD",
+                "format": "JSON",
+                "hash": "",
+                "last_modified": "2021-11-10T10:20:23.583347",
+                "metadata_modified": "2021-11-10T10:20:23.603202",
+                "mimetype": "application/json",
+                "mimetype_inner": null,
+                "name": "datapackage.json",
+                "package_id": "8e426acb-bdd7-495f-a079-dc7a1ba34245",
+                "position": 0,
+                "resource_type": null,
+                "size": 11309,
+                "state": "active",
+                "url": "http://data.climatesubak.org/dataset/8e426acb-bdd7-495f-a079-dc7a1ba34245/resource/89dddfbe-b6dc-4eb3-b6ec-d0c00da3516d/download/datapackage.json",
+                "url_type": "upload"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-11-10T10:22:55.817646",
+                "datastore_active": false,
+                "description": "Core dataset created by the WRI for collating power plant data",
+                "format": "CSV",
+                "hash": "",
+                "last_modified": "2021-11-10T11:14:33.863223",
+                "metadata_modified": "2021-11-10T11:14:33.877678",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "global_power_plant_database.csv",
+                "package_id": "8e426acb-bdd7-495f-a079-dc7a1ba34245",
+                "position": 1,
+                "resource_type": null,
+                "size": 11973385,
+                "state": "active",
+                "url": "http://data.climatesubak.org/dataset/8e426acb-bdd7-495f-a079-dc7a1ba34245/resource/e434dcad-a3e3-4ad0-8258-7fb3daeb67d1/download/global_power_plant_database.csv",
+                "url_type": "upload"
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "climate",
+                "name": "climate",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "energy",
+                "name": "energy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "power plants",
+                "name": "power plants",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+]
