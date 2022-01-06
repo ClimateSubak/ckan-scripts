@@ -18,13 +18,14 @@ assert response.status_code == 200
 content = response.text
 config_options['ckan.site_about'] = content
 
-#url = 'http://data.climatesubak.org/api/action/config_option_update'
-url = 'http://localhost:5000/api/action/config_option_update'
+# base_url = 'http://data.climatesubak.org' # production
+# base_url = 'http://52.56.77.255' # staging
+base_url = 'http://localhost:5000' # local
 
 headers = {'Authorization': os.getenv('API_KEY')}
 
 # Make the HTTP request.
-response = requests.post(url, data=config_options, headers=headers)
+response = requests.post(f'{base_url}/api/action/config_option_update', data=config_options, headers=headers)
 assert response.status_code == 200
 
 # Get response
