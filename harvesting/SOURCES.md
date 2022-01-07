@@ -1,9 +1,25 @@
 # Harvesting sources
 
-name | source | type | import orgs? | freq | staging | production
----|---|---|---|---|:---:|:---:
-National Grid ESO | https://data.nationalgrideso.com/ | CKAN | no | weekly | ✅ | 
+## National Grid ESO
+**source**: https://data.nationalgrideso.com \
+**type**: CKAN \
+**config**: {} \
+**freq**: weekly \
+**staging**: ✅ \
+**production**:
 
+## Low Carbon contracts company
+**source**: https://www.lowcarboncontracts.uk/data-portal \
+**type**: CKAN \
+**config**: `{"remote_orgs": "create"}` \
+**freq**: weekly \
+**staging**: ✅  \
+**production**: 
 
-
-
+## UK government data (MET office only)
+**source**: https://ckan.publishing.service.gov.uk \
+**type**: CKAN \
+**config**: `{"organizations_filter_include": ["met-office"], "remote_orgs": "create"}` \
+**freq**: weekly \
+**staging**: ✅  \
+**production**:
