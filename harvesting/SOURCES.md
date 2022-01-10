@@ -16,10 +16,10 @@
 **staging**: ✅  \
 **production**: 
 
-## UK government data (MET office only)
+## UK government data (BEIS only)
 **source**: https://ckan.publishing.service.gov.uk \
 **type**: CKAN \
-**config**: `{"organizations_filter_include": ["met-office"], "remote_orgs": "create"}` \
+**config**: `{"organizations_filter_include": ["department-for-business-energy-and-industrial-strategy"], "remote_orgs": "create"}` \
 **freq**: weekly \
 **staging**: ✅  \
 **production**:
