@@ -3,8 +3,8 @@
 This file documents how to harvest datasets from other CKAN instances. It is intended that the Climate Subak data catalogue contains datasets from a wide variety of sources.
 
 ## Start the necessary queues for harvester
-`docker-compose -f docker-compose.<env>.yml exec ckan-dev /bin/bash -c "ckan harvester gather_consumer"`\
-`docker-compose -f docker-compose.<env>.yml exec ckan-dev /bin/bash -c "ckan harvester fetch_consumer"`
+`docker-compose -f docker-compose.<env>.yml exec ckan /bin/bash -c "ckan harvester gather_consumer"`\
+`docker-compose -f docker-compose.<env>.yml exec ckan /bin/bash -c "ckan harvester fetch_consumer"`
 
 ## Create a harvest job in the web UI
 - Navigate to `http://<ckan-url>/harvest/new`
