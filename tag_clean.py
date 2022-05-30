@@ -21,10 +21,10 @@ headers = {"Authorization": API_KEY}
 # r = requests.post("https://data.climatesubak.org/api/3/action/package_patch", headers=headers, json=data)
 # r.json()
 
-base_url = "https://data.climatesubak.org"
-verify = True
+base_url = "https://data.subak.org"
 # base_url = "https://localhost"
-# verify = False
+
+verify = True
 
 r = requests.get(f'{base_url}/api/3/action/tag_list', verify=verify)
 assert r.status_code == 200, "Tag list query failed"
@@ -70,5 +70,5 @@ for tag in tags_to_clean:
             assert r.status_code == 200
             print(f"Successfully cleaned tags on dataset {name}")
         except:
-            print(f"Failed to update dataset {name} - {r.json['error']}")
+            print(f"Failed to update dataset {name} - {r.json()['error']}")
 
