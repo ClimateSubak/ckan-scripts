@@ -1,6 +1,6 @@
-from operator import truediv
-import os
 import json
+import os
+import re
 
 from dotenv import load_dotenv
 import pandas as pd
@@ -12,9 +12,8 @@ N_DATASETS_PER_QUERY = 1000
 API_KEY = os.getenv('API_KEY')
 headers = {"Authorization": API_KEY}
 
-# base_url = "https://data.subak.org"
-base_url = "https://localhost"
-verifySSL = False
+# base_url = "https://data.subak.org"; verifySSL = True
+base_url = "https://localhost"; verifySSL = False
 
 with open('countries-iso-3166.json') as f:
     countries = json.load(f)
@@ -47,11 +46,15 @@ for ds in datasets:
     if 'subak_countries' in ds.keys() and len(ds['subak_countries']) > 0:
         continue
     
+    # Ignore metadata that might wrongly indicate that the dataset is about a certain country
+    ignore_keys = ['organization']
+    for key in ignore_keys:
+        ds.pop(key, None)
+        
     # Flatten metadata values to a single string and search for country names
     flat_ds_values = list(pd.json_normalize(ds).to_dict(orient='records')[0].values())
-    text_blob = ' '.join([str(v) for v in flat_ds_values])
-    # TODO improve search via regex of country names e.g 'Cuba' would be found in the word 'incubate'
-    found_countries = [c for c in country_names if c.lower() in text_blob.lower()]
+    text_blob = ' '.join([str(v) for v in flat_ds_values])    
+    found_countries = [c for c in country_names if re.search(fr'\W{c.lower()}\W', text_blob.lower()) is not None]
     # print(name, found_countries)
     
     # Skip datasets where we can't find any country names in the metadata
@@ -68,7 +71,7 @@ for ds in datasets:
         'subak_countries': country_codes
     }
     url = f'{base_url}/api/3/action/package_patch'
-    print(url, data)
+    # print(url, data)
     r = requests.post(url, headers=headers, json=data, verify=verifySSL)
     if r.status_code == 200:
         print(f"Successfully updated countries on dataset {name} with {country_codes}")
